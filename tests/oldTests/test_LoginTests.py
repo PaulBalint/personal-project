@@ -12,7 +12,7 @@ import allure_pytest
 from pages.oldPages.LoginPage import LoginPage
 from pages.BasePage import BaseClass
 from pages.oldPages.ProductsPage import ProductsPage
-from pages.CheckoutPage import CheckoutPage
+from pages.oldPages.CheckoutPage import CheckoutPage
 import allure
 from allure_commons.types import AttachmentType
 import requests

@@ -9,7 +9,7 @@ from selenium import webdriver
 import helpers.AllureHelper as helper
 import helpers.AllureMessages as messages
 import allure_pytest
-from pages.CheckoutPage import CheckoutPage
+from pages.oldPages.CheckoutPage import CheckoutPage
 from pages.oldPages.ProductsPage import ProductsPage
 from pages.oldPages.LoginPage import LoginPage
 from pages.BasePage import BaseClass
