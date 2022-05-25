@@ -1,6 +1,6 @@
 from pages.BasePage import BaseClass as base_page
-import locators.oldLocators.ProductsPageLocators as products_page_locators
-import locators.oldLocators.CheckoutPageLocators as checkout_page_locators
+import locators.ProductsPageLocators as products_page_locators
+import locators.CheckoutPageLocators as checkout_page_locators
 from selenium.webdriver.common.by import By
 
 class CheckoutPage(base_page):
