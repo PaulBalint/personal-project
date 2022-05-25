@@ -9,17 +9,17 @@ from selenium import webdriver
 import helpers.AllureHelper as helper
 import helpers.AllureMessages as messages
 import allure_pytest
-from pages.LoginPage import LoginPage
+from pages.oldPages.LoginPage import LoginPage
 from pages.BasePage import BaseClass
-from pages.ProductsPage import ProductsPage
+from pages.oldPages.ProductsPage import ProductsPage
 from pages.CheckoutPage import CheckoutPage
 import allure
 from allure_commons.types import AttachmentType
 import requests
 from selenium.webdriver.common.by import By
-import locators.LoginPageLocators as login_locators
-import locators.ProductsPageLocators as products_locators
-import locators.CheckoutPageLocators as checkout_locators
+import locators.oldLocators.LoginPageLocators as login_locators
+import locators.oldLocators.ProductsPageLocators as products_locators
+import locators.oldLocators.CheckoutPageLocators as checkout_locators
 from datetime import datetime, timedelta
 class Tests:
 
